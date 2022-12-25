@@ -72,33 +72,65 @@ html {
     display: flex;
     min-height: 104px;
     align-items: center;
+    @media (max-width: 479.98px) {
+      min-height: 70px;
+    }
   }
 
   // .header__logo
 
   &__logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
   }
 
   // .header__menu
 
   &__menu {
     margin: 0px 0px 0px 133px;
+    @media (max-width: 991.98px) {
+      margin: 0px 0px 0px 80px;
+    }
+    @media (max-width: 767.98px) {
+      margin: 0px 0px 0px 40px;
+    }
+    @media (max-width: 479.98px) {
+      margin: 0px 0px 0px 20px;
+    }
   }
 }
 .menu {
+  padding: 5px 0;
   // .menu__list
 
   &__list {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   // .menu__item
 
   &__item {
+    &:not(:last-child) {
+      margin: 0px 21px 0px 0px;
+    }
   }
 
   // .menu__link
 
   &__link {
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    color: #737373;
+    &:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 479.98px) {
+      font-size: 18px;
+    }
   }
 }
 
