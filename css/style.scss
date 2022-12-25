@@ -4,8 +4,8 @@
 
 $fontFamily: "Montserrat";
 $fontWeight: 500;
-$fontSize: 18px;
-$mainColor: #533738;
+$fontSize: 14px;
+$mainColor: #252b42;
 
 @import "_null";
 
@@ -31,7 +31,7 @@ html {
 }
 
 [class*="__container"] {
-  max-width: 1230px; // сначала контейнер был 1200 как на макете, стал 1066 изза padding 30px
+  max-width: 1076px; // сначала контейнер был 1046 как на макете, стал 1076 изза padding 30px
   margin: 0px auto;
   padding: 0px 15px;
   @media (max-width: 1087px) {
@@ -58,3 +58,48 @@ html {
 }
 
 //=================== Общие стили  ================================//
+
+//=================== header  ================================//
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  // .header__container
+
+  &__container {
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+  }
+
+  // .header__logo
+
+  &__logo {
+  }
+
+  // .header__menu
+
+  &__menu {
+    margin: 0px 0px 0px 133px;
+  }
+}
+.menu {
+  // .menu__list
+
+  &__list {
+  }
+
+  // .menu__item
+
+  &__item {
+  }
+
+  // .menu__link
+
+  &__link {
+  }
+}
+
+//=================== header  ================================//
