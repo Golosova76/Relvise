@@ -57,6 +57,36 @@ html {
   }
 }
 
+.header-block {
+  text-align: center;
+
+  // .header-block__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    &:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+    @media (max-width: 991.98px) {
+      font-size: 36px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 30px;
+    }
+  }
+
+  // .header-block__sub-title
+
+  &__sub-title {
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+}
+
 //=================== Общие стили  ================================//
 
 //=================== header  ================================//
@@ -382,6 +412,13 @@ html {
   }
 }
 .advantages {
+  padding: 80px 0;
+  @media (max-width: 991.98px) {
+    padding: 50px 0;
+  }
+  @media (max-width: 767.98px) {
+    padding: 40px 0;
+  }
 
   // .advantages__container
 
@@ -391,48 +428,70 @@ html {
   // .advantages__header
 
   &__header {
+    margin: 0px 0px 50px 0px;
+    @media (max-width: 767.98px) {
+      margin: 0px 0px 25px 0px;
+    }
   }
 
   // .advantages__body
 
   &__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px -30px;
   }
 
   // .advantages__column
 
   &__column {
+    padding: 0 15px;
+    margin: 0px 0px 30px 0px;
+    flex: 0 1 25%;
+    @media (max-width: 1020px) {
+      flex: 0 1 50%;
+    }
+    @media (max-width: 560px) {
+      flex: 0 1 100%;
+    }
   }
 
   // .advantages__item
 
   &__item {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-weight: 700;
+    > *:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
   }
 
   // .advantages__icon
 
   &__icon {
+    height: 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
 
   // .advantages__value
 
   &__value {
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
   }
 
   // .advantages__text
 
   &__text {
-  }
-}
-.header-block {
-
-  // .header-block__title
-
-  &__title {
-  }
-
-  // .header-block__sub-title
-
-  &__sub-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    color: #737373;
   }
 }
 
