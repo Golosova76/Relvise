@@ -168,7 +168,6 @@ html {
 
 //=================== main ================================//
 .main {
-
   // .main__main-block
 
   &__main-block {
@@ -176,7 +175,6 @@ html {
   }
 }
 .main-block {
-
   // .main-block__container
 
   &__container {
@@ -226,7 +224,7 @@ html {
   &__buttons {
     display: flex;
     flex-wrap: wrap;
-    margin: -10px 0px; 
+    margin: -10px 0px;
   }
 
   // .main-block__button
@@ -257,8 +255,8 @@ html {
     // .main-block__button_orange
 
     &_orange {
-      color: #FFFFFF;
-      background: #FF7B47;
+      color: #ffffff;
+      background: #ff7b47;
       &:hover {
         background-color: #fff;
         color: #ff7b47;
@@ -268,8 +266,8 @@ html {
     // .main-block__button_border
 
     &_border {
-      border: 1px solid #0D5C63;      
-      color: #0D5C63;
+      border: 1px solid #0d5c63;
+      color: #0d5c63;
       &:hover {
         background-color: #0d5c63;
         color: #fff;
@@ -300,7 +298,6 @@ html {
 
 //=================== service ================================//
 .main {
-
   // .main__services
 
   &__services {
@@ -310,7 +307,6 @@ html {
   }
 }
 .services {
-
   // .services__container
 
   &__container {
@@ -329,7 +325,7 @@ html {
   // .services__column
 
   &__column {
-    flex: 0 1 33.333%;    
+    flex: 0 1 33.333%;
     @media (max-width: 991.98px) {
       flex: 0 1 50%;
       &:not(:last-child) {
@@ -348,7 +344,7 @@ html {
 
   &__item {
     height: 100%;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     padding: 35px;
     @media (max-width: 479.98px) {
@@ -364,17 +360,17 @@ html {
   // .item-service_green
 
   &_green {
-    background: #0D5C63;
+    background: #0d5c63;
     &__title {
       color: #fff;
     }
   }
 
-  &_green &__title{
+  &_green &__title {
     color: #fff;
   }
 
-  &_green &__text{
+  &_green &__text {
     color: #fff;
   }
 
@@ -405,7 +401,6 @@ html {
 
 //=================== advantages ================================//
 .main {
-
   // .main__advantages
 
   &__advantages {
@@ -496,3 +491,112 @@ html {
 }
 
 //=================== advantages ================================//
+
+//=================== practice ================================//
+.main {
+  // .main__practice
+
+  &__practice {
+  }
+}
+.practice {
+  padding: 125px 0px 80px 0px;
+  @media (max-width: 991.98px) {
+    padding: 40px 0px 80px 0px;
+  }
+  @media (max-width: 767.98px) {
+    padding: 0px 0px 40px 0px;
+  }
+  // .practice__container
+
+  &__container {
+  }
+
+  // .practice__header
+
+  &__header {
+    margin: 0px 0px 45px 0px;
+    @media (max-width: 767.98px) {
+      margin: 0px 0px 25px 0px;
+    }
+  }
+
+  // .practice__body
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px -30px;
+  }
+
+  // .practice__column
+
+  &__column {
+    padding: 0 20px;
+    flex: 0 1 25%;
+    margin: 0px 0px 30px 0px;
+    @media (max-width: 1040px) {
+      flex: 0 1 50%;
+    }
+    @media (max-width: 530px) {
+      flex: 0 1 100%;
+    }
+  }
+
+  // .practice__item
+
+  &__item {
+  }
+}
+
+.item-practice {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // .item-practice__content
+
+  &__content {
+    padding: 30px;
+    flex: 1 1 auto;
+  }
+
+  // .item-practice__link
+
+  &__link {
+    display: inline-block;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:not(:last-child) {
+      margin: 0px 0px 15px 0px;
+    }
+  }
+
+  // .item-practice__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+  }
+
+  // .item-practice__text
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+
+  // .item-practice__image-ibg
+
+  &__image-ibg {
+    display: block; //тк это ссылка!
+    padding: 0px 0px 60% 0px;
+  }
+}
+
+//=================== practice ================================//
