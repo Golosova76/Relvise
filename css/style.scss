@@ -600,3 +600,225 @@ html {
 }
 
 //=================== practice ================================//
+
+//=================== who-we-are ================================//
+.main {
+  // .main__who-we-are
+
+  &__who-we-are {
+  }
+}
+.who-we-are {
+  padding: 80px 0px 130px 0px;
+  background: #ffffff;
+  @media (max-width: 950px) {
+    padding: 50px 0px 50px 0px;
+  }
+  @media (max-width: 767.98px) {
+    padding: 20px 0px 50px 0px;
+  }
+  // .who-we-are__container
+
+  &__container {
+  }
+
+  // .who-we-are__header
+
+  &__header {
+    margin: 0px 0px 100px 0px;
+    @media (max-width: 950px) {
+      margin: 0px 0px 30px 0px;
+    }
+  }
+
+  // .who-we-are__body
+
+  &__body {
+    display: flex;
+    align-items: flex-start;
+    @media (max-width: 950px) {
+      flex-direction: column-reverse;
+      align-items: stretch;
+    }
+  }
+
+  // .who-we-are__video
+
+  &__video {
+    flex: 0 0 57%;
+    position: relative;
+    padding: 0px 0px 42.25% 0px;
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+    @media (max-width: 950px) {
+      &:not(:last-child) {
+        margin: 50px 0px 0px 0px;
+      }
+      padding: 0px 0px 56.25% 0px;
+    }
+    @media (max-width: 767.98px) {
+      &:not(:last-child) {
+        margin: 30px 0px 0px 0px;
+      }
+    }
+  }
+
+  // .who-we-are__content
+
+  &__content {
+    flex: 1 1 auto;
+    padding: 20px 0px 0px 121px;
+    @media (max-width: 1080px) {
+      padding: 0px 0px 0px 50px;
+    }
+    @media (max-width: 991.98px) {
+      padding: 0px 0px 0px 0px;
+    }
+  }
+
+  // .who-we-are__top
+
+  &__top {
+    &:not(:last-child) {
+      margin: 0px 0px 50px 0px;
+    }
+    @media (max-width: 767.98px) {
+      &:not(:last-child) {
+        margin: 0px 0px 30px 0px;
+      }
+    }
+  }
+
+  // .who-we-are__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    &:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+    @media (max-width: 950px) {
+      font-size: 24px;
+    }
+  }
+
+  // .who-we-are__text
+
+  &__text {
+    line-height: 1.43;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+
+  // .who-we-are__items
+
+  &__items {
+  }
+
+  // .who-we-are__item
+
+  &__item {
+    &:not(:last-child) {
+      margin: 0px 0px 30px 0px;
+    }
+  }
+}
+
+.item-who-we-are {
+  display: flex;
+  // .item-who-we-are__icon
+
+  &__icon {
+    flex: 0 0 32px;
+  }
+
+  // .item-who-we-are__body
+
+  &__body {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 20px;
+  }
+
+  // .item-who-we-are__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    &:not(:last-child) {
+      margin: 0px 0px 5px 0px;
+    }
+  }
+
+  // .item-who-we-are__text
+
+  &__text {
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    color: #737373;
+    white-space: nowrap;
+    width: 225px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+//=================== who-we-are ================================//
+
+//=================== clients ================================//
+.main {
+  // .main__clients
+
+  &__clients {
+    &:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+  }
+}
+.clients {
+  padding: 50px 0;
+  @media (max-width: 767.98px) {
+    padding: 30px 0;
+  }
+  // .clients__container
+
+  &__container {
+  }
+
+  // .clients__items
+
+  &__items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  // .clients__item
+
+  &__item {
+    padding: 8px 15px;
+    flex: 0 1 16.6667%;
+    text-align: center;
+    min-width: 140px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+//=================== clients ================================//
+
+//=================== subscribe ================================//
+
+//=================== subscribe ================================//
