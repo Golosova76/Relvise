@@ -7,6 +7,6 @@ This page is created with:
 
 Deployment link is [here](https://golosova76.github.io/Relvise/)
 
-<code>[logo]: https://golosova76.github.io/Relvise/img/main-block/cover.jpg)
+<code>![logo]: https://golosova76.github.io/Relvise/img/main-block/cover.jpg)
 [site]: https://golosova76.github.io/Relvise/
 </code>
