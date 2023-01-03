@@ -7,4 +7,4 @@ This page is created with:
 
 Deployment link is [here](https://golosova76.github.io/Relvise/)
 
-![site](site.png 'https://golosova76.github.io/Relvise/')
+<code>![site](site.png 'https://golosova76.github.io/Relvise/')</code>
