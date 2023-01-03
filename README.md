@@ -1,6 +1,6 @@
 # Relvise
-# This is the Consulting Agency website.
-# This page is created with:
+This is the Consulting Agency website.
+This page is created with:
 - HTML
 - CSS
-# Deployment link is [here](https://golosova76.github.io/Relvise/)
+Deployment link is [here](https://golosova76.github.io/Relvise/)
