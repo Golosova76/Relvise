@@ -5,6 +5,7 @@ This page is created with:
 - HTML
 - CSS
 
-Deployment link is [here](https://golosova76.github.io/Relvise/)
+Deployment link is <a href="https://golosova76.github.io/Relvise/" target="_blank">here</a>
+[here](https://golosova76.github.io/Relvise/)
 
 
